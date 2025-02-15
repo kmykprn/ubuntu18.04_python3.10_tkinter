@@ -1,0 +1,2 @@
+# ubuntu18.04_python3.10_tkinter
+ubuntu18.04とpython3.10とtkinterをwsl上で扱うためのdockerfileを作成するためのレポジトリ
