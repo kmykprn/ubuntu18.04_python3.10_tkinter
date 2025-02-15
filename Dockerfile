@@ -8,7 +8,7 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 # 必要なパッケージをインストール
 RUN apt update && \
     apt install -y tzdata wget curl build-essential libssl-dev libffi-dev \
-    libbz2-dev libreadline-dev libsqlite3-dev zlib1g-dev
+    libbz2-dev libreadline-dev libsqlite3-dev zlib1g-dev tk-dev
 
 # Python 3.10 のダウンロード & インストール
 WORKDIR /usr/src

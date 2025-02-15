@@ -18,3 +18,6 @@ ubuntu18.04とpython3.10とtkinterをwsl上で扱うためのdockerfileを作成
 - python3.10をpython3に設定する
     - https://qiita.com/piyo_parfait/items/5abbe4bee2495a62acdc
     - update-alternatives --install /usr/bin/python3 python3 /usr/local/bin/python3.10 1
+- tkinterをインストールする
+    - https://stackoverflow.com/questions/5459444/tkinter-python-may-not-be-configured-for-tk
+    - apt install時に、tk-devもインストールしておく
